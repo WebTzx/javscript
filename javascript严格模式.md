@@ -31,7 +31,7 @@
     2. 禁止在函数内部访问函数的caller和arguments属性
     3. 不能访问arguments的callee属性
 ~~~
-> 显式报错
+> 显式报错 
 ~~~
     1.不能对一个不可修改的属性进行赋值， 会报错
     2. 不能对禁止扩展的对象添加成员， 会报错（Object.preventExtensions()）
